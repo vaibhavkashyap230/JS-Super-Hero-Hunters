@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- for linking CSS and icons -->
+        <link rel="stylesheet" type="text/css" href="./fav.css">
+        <link rel="shortcut icon" type="image/png" href="./images/superhero.png">
+        <title>
+            Favourites Section!
+        </title>
+    </head>
+    <body>
+        <!-- title to the page -->
+        <h1 id="title">
+            Your Favourite Super-Heros
+        </h1>
+        <!-- going back to home page -->
+        <button id="home">Go Back to Home Page!</button>
+        <div id="outer">
+            <!-- creating template for reuse -->
+            <template id="temp">
+                <div class="main">
+                    <div id="text">
+                        <div class="inner" id="name">
+                            Name
+                        </div>
+                        <div class="inner" id="race">
+                            Race
+                        </div>
+                        <div class="inner" id="occu">
+                            Gender
+                        </div>
+                        <div class="inner" id="fav">
+                            <img src="./images/delete.png" width="48px">
+                        </div>
+                    </div>
+                    <div>
+                        <div id="img">
+                            <img>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+        <!-- adding javascript files -->
+        <script src="./fav.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+/* basic settings */
+body
+{
+    background-image: url('images/back.jpg');
+    color: white;
+}
+
+#title
+{
+    text-align: center;
+}
+
+/* for going back to index.html */
+#home
+{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    cursor: pointer;    
+}
+
+/* for containing all the cards */
+#outer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* card details */
+.main
+{
+    padding: 15px;
+    width: 25vw;
+    height: 25vh;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#img img
+{
+    border-radius: 60%;
+}
+
+/* adjusting all data */
+#text
+{
+    width: 50%;
+}
+
+.inner
+{
+    width: 100%;
+    height: 23%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#fav
+{
+    position: relative;
+    left: 5px;
+}
+
+img
+{
+    max-width: 120px;
+    max-height: 165px;
+    cursor: pointer;
+}
+
+#img
+{
+    margin-left: 0px;
+}

@@ -1,0 +1,88 @@
+/* basic settings */
+body
+{
+    background-image: url('images/about_back.jpg');
+    color: white;
+}
+
+/* for heading/title */
+#title
+{
+    margin-left: 40%;
+}
+
+/* for navigation buttons */
+#home
+{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    cursor: pointer;    
+}
+
+#fav
+{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 85%;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 50px;    
+}
+
+/* for hero image */
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 50px;
+}
+
+#details
+{
+    display: flex;
+    flex-direction: row;
+}
+
+/* for hero's power details */
+#power
+{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    width: 50vw;
+}
+
+#power span
+{
+    font-size: 2rem;
+}
+
+#bio span
+{
+    color: black;
+    font-size: 2rem;
+}
+
+/* for hero's biography details */
+#bio
+{
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- linking CSS & icons -->
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <link rel="shortcut icon" type="image/png" href="./images/superhero.png">
+        <title>
+            Super-Hero Hunter!
+        </title>
+    </head>
+    <body>
+        <!-- creating buttons and text-boxes -->
+        <label for="input" id="label"><h1>Which Super-Hero are you looking for?</h1></label>
+        <input type="text" placeholder="Enter the SuperHero's name" name="input">
+        <button id="fav_button">Check List of Favourites</button>
+        <p id="nortify"></p>
+        <p id="waiting"></p>
+        <!-- creating template for re-use -->
+        <div id="outer">
+            <template id="temp">
+                <div class="main">
+                    <div id="text">
+                        <div class="inner" id="name">
+                            Name
+                        </div>
+                        <div class="inner" id="race">
+                            Race
+                        </div>
+                        <div class="inner" id="occu">
+                            Gender
+                        </div>
+                        <div class="inner" id="fav">
+                            <img src="./images/heart.png" width="48px">
+                        </div>
+                    </div>
+                    <div>
+                        <div id="img">
+                            <img>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+        <!-- adding javascript -->
+        <script src="./index.js"></script>
+    </body>
+</html>
