@@ -8,7 +8,7 @@ fetch();
 function fetch()
 {
     var xhrRequest = new XMLHttpRequest();
-    var url = 'https://superheroapi.com/api/2671907826386546/search/' + heroName;
+    var url = 'https://superheroapi.com/api.php/2671907826386546/search/' + heroName;
     xhrRequest.open('get',url,true);
     xhrRequest.send();
     xhrRequest.onload = function(){
