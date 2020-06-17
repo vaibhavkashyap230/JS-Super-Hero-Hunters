@@ -20,7 +20,7 @@ function search()
     // Call to the server
     document.getElementById("waiting").innerText = 'Waiting for xhrRequest.';
     var xhrRequest = new XMLHttpRequest();
-    var url = 'https://superheroapi.com/api/2671907826386546/search/' + name;
+    var url = 'https://superheroapi.com/api.php/2671907826386546/search/' + name;
     xhrRequest.open('get',url,true);
     xhrRequest.send();
     xhrRequest.onload = function(){
